@@ -13,9 +13,9 @@ from torch.nn.utils.rnn import pad_sequence
 from collections import defaultdict
 
 # Model and resource imports
-from Tan_SNTLNTU_Task1.models.ntu_baseline_2 import get_ntu_model
+from Tan_SNTLNTU_task1.models.ntu_baseline_2 import get_ntu_model
 #from Schmid_CPJKU_task1.models.multi_device_model import MultiDeviceModelContainer
-from Tan_SNTLNTU_Task1 import ckpts
+from Tan_SNTLNTU_task1 import ckpts
 
 
 class Config:
