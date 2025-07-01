@@ -1,4 +1,4 @@
-# DCASE2024 - Task 1 - Baseline Systems
+# DCASE2024 - Task 1 - Submission
 
 Contact: **Ee Leng Tan** (etanel@ntu.edu.sg), *Nanyang Technological University*
 
