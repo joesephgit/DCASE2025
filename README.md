@@ -1,4 +1,4 @@
-# DCASE2024 - Task 1 - Submission
+# DCASE2025 - Task 1 - Submission
 
 Contact: **Ee Leng Tan** (etanel@ntu.edu.sg), *Nanyang Technological University*
 
