@@ -10,7 +10,7 @@ We present the SNTL-NTU team’s submission for Task 1 of the Low-Complexity Aco
 
 The proposed system is a lightweight CNN-GRU architecture trained exclusively on the TAU Urban Acoustic Scenes 2022 Mobile Development dataset (25% split). No external datasets are used, except for MicIRP, which provides device impulse response (DIR) augmentation. The model has a memory footprint of just 117 KB and requires only 10.9 million multiply-and-accumulate (MAC) operations, making it one of the most efficient submissions to the challenge.
 
-On the official development set, the model achieves an accuracy of 60.35% without device-specific finetuning, and all weights are shared across all 7 models during inference. Training was conducted using the official DCASE 2025 Task 1 baseline codebase.
+On the official development set, the model achieves an accuracy of 60.35% without device-specific finetuning, and all weights are shared across all 7 models during inference. Training was conducted using a modified DCASE 2025 Task 1 baseline codebase (train_base_dcase_2025.py).
 
 
 
