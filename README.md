@@ -88,7 +88,7 @@ The Baseline system (full fine-tune strategy) has a complexity of 58,605 paramet
 and MACs are distributed across the different layers in the network.
 
 !==========================================================================================
-Layer (type:depth-idx)                   Output Shape              Param #
+|Layer (type:depth-idx)                   Output Shape              Param #
 !==========================================================================================
 Network_test                             [1, 10]                   438
 ├─Conv2dNormActivation: 1-1              [1, 7, 256, 33]           --
