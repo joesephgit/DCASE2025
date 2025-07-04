@@ -13,12 +13,12 @@ On the official development set, the model achieves an accuracy of 60.35% withou
 
 ### **Training Steps Overview**
 #### **Step 1: General Model Training ([`train_base_dcase_2025.py`](train_base_dcase_2025.py))**
-- Trains a **single baseline model** using the **25% subset** of the dataset.
+- Trains a **single model** using the **25% subset** of the dataset.
 - Focuses on **cross-device generalization**.
 - No device-specific adaptation is performed.
 
 #### **Step 2: Device-Specific Fine-Tuning ([`train_device_specific.py`](train_device_specific.py))**
-This step **loads the pre-trained baseline model** from Step 1 and **fine-tunes it separately for each recording device** on the device-specific 
+This step **loads the pre-trained model** from Step 1 and **fine-tunes it separately for each recording device** on the device-specific 
 data contained in the 25% split.  
 The approach consists of the following steps:
 1. **Load the pre-trained checkpoint** from Step 1.
@@ -82,6 +82,6 @@ python train_base_dcase_2025.py
 python train_device_specific.py --ckpt_id=<wandb_id_from_Step_1>
 ```
 
-## Baseline Complexity
+## Model Complexity
 
-The Baseline system (full fine-tune strategy) has a complexity of 58,605 parameters (16 bits) and 10.9 million MACs.
+The model has a complexity of 58,605 parameters (16 bits) and 10.9 million MACs.
