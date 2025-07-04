@@ -87,9 +87,9 @@ python train_device_specific.py --ckpt_id=<wandb_id_from_Step_1>
 The Baseline system (full fine-tune strategy) has a complexity of 58,605 parameters (16 bits) and 10.9 million MACs. The table below lists how the parameters
 and MACs are distributed across the different layers in the network.
 
-!==========================================================================================
+|==========================================================================================
 |Layer (type:depth-idx)                   Output Shape              Param #
-!==========================================================================================
+|==========================================================================================
 Network_test                             [1, 10]                   438
 ├─Conv2dNormActivation: 1-1              [1, 7, 256, 33]           --
 │    └─Conv2d: 2-1                       [1, 7, 256, 33]           63
