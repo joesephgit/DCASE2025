@@ -90,9 +90,9 @@ and MACs are distributed across the different layers in the network.
 |==========================================================================================
 |Layer (type:depth-idx)                   Output Shape              Param #
 |==========================================================================================
-|Network_test                             [1, 10]                   438
-|├─Conv2dNormActivation: 1-1              [1, 7, 256, 33]           --
-|│    └─Conv2d: 2-1                       [1, 7, 256, 33]           63
+|Network_test                             [1, 10]                   438|
+|├─Conv2dNormActivation: 1-1              [1, 7, 256, 33]           --|
+|│    └─Conv2d: 2-1                       [1, 7, 256, 33]           63|
 |│    └─BatchNorm2d: 2-2                  [1, 7, 256, 33]           14
 |├─Conv2dNormActivation: 1-2              [1, 12, 256, 33]          --
 |│    └─Conv2d: 2-3                       [1, 12, 256, 33]          84
